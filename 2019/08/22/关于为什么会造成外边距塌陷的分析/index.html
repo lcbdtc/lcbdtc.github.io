@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="Hexo, NexT">
+  <meta name="keywords" content="css,">
 
 
 
@@ -80,13 +80,14 @@
 
 
 <meta name="description" content="大家应该会碰到这种情况。父元素内部有子元素，如果给子元素添加了margin-top，结果父元素也会一起跟下来，导致了外边距塌陷的现象。 我们可以在父元素中加入overflow:hidden，便可以解决外边距塌陷问题。 那为什么子元素加了margin-top，父元素也会跟下去呢？ 根据规范，一个盒子如果没有上补白和上边框的话，那么它的上边距会和它的文档流中的第一个子元素的上边距重叠。意思就是子元素的">
+<meta name="keywords" content="css">
 <meta property="og:type" content="article">
 <meta property="og:title" content="关于为什么会造成外边距塌陷的分析">
 <meta property="og:url" content="http://yoursite.com/2019/08/22/关于为什么会造成外边距塌陷的分析/index.html">
 <meta property="og:site_name" content="李小斌">
 <meta property="og:description" content="大家应该会碰到这种情况。父元素内部有子元素，如果给子元素添加了margin-top，结果父元素也会一起跟下来，导致了外边距塌陷的现象。 我们可以在父元素中加入overflow:hidden，便可以解决外边距塌陷问题。 那为什么子元素加了margin-top，父元素也会跟下去呢？ 根据规范，一个盒子如果没有上补白和上边框的话，那么它的上边距会和它的文档流中的第一个子元素的上边距重叠。意思就是子元素的">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2019-08-22T06:59:02.183Z">
+<meta property="og:updated_time" content="2019-08-25T12:17:24.098Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="关于为什么会造成外边距塌陷的分析">
 <meta name="twitter:description" content="大家应该会碰到这种情况。父元素内部有子元素，如果给子元素添加了margin-top，结果父元素也会一起跟下来，导致了外边距塌陷的现象。 我们可以在父元素中加入overflow:hidden，便可以解决外边距塌陷问题。 那为什么子元素加了margin-top，父元素也会跟下去呢？ 根据规范，一个盒子如果没有上补白和上边框的话，那么它的上边距会和它的文档流中的第一个子元素的上边距重叠。意思就是子元素的">
@@ -186,16 +187,6 @@
               <i class="menu-item-icon fa fa-fw fa-home"></i> <br>
             
             首页
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-tags">
-          <a href="/tags/" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br>
-            
-            标签
           </a>
         </li>
       
@@ -370,6 +361,12 @@
 
     <footer class="post-footer">
       
+        <div class="post-tags">
+          
+            <a href="/tags/css/" rel="tag"># css</a>
+          
+        </div>
+      
 
       
       
@@ -476,6 +473,15 @@
               </div>
             
 
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                
+                  <span class="site-state-item-count">3</span>
+                  <span class="site-state-item-name">标签</span>
+                
+              </div>
             
 
           </nav>

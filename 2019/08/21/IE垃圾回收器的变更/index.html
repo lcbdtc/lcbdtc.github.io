@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="Hexo, NexT">
+  <meta name="keywords" content="JavaScript,">
 
 
 
@@ -80,13 +80,14 @@
 
 
 <meta name="description" content="IE的垃圾回收器是根据内存分配量搞的，变量的数量有个阈值（比如256个变量、4096个对象等等），达到这个阈值，才会运行垃圾回收机制。但是遇到一种情况，就比如说一个程序本身自带的变量就超过了这个阈值，那垃圾回收机制，就会频繁运行。性能就下降了。 IE7之后，他们对垃圾回收器的机制做了调整，讲阈值变为动态，如果垃圾收集例程回收的内存分配量低于15%，就将阈值加倍，如果回收了85%，就将阈值回复到默认">
+<meta name="keywords" content="JavaScript">
 <meta property="og:type" content="article">
 <meta property="og:title" content="IE垃圾回收器的变更">
 <meta property="og:url" content="http://yoursite.com/2019/08/21/IE垃圾回收器的变更/index.html">
 <meta property="og:site_name" content="李小斌">
 <meta property="og:description" content="IE的垃圾回收器是根据内存分配量搞的，变量的数量有个阈值（比如256个变量、4096个对象等等），达到这个阈值，才会运行垃圾回收机制。但是遇到一种情况，就比如说一个程序本身自带的变量就超过了这个阈值，那垃圾回收机制，就会频繁运行。性能就下降了。 IE7之后，他们对垃圾回收器的机制做了调整，讲阈值变为动态，如果垃圾收集例程回收的内存分配量低于15%，就将阈值加倍，如果回收了85%，就将阈值回复到默认">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2019-08-21T12:25:31.936Z">
+<meta property="og:updated_time" content="2019-08-25T12:17:39.435Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="IE垃圾回收器的变更">
 <meta name="twitter:description" content="IE的垃圾回收器是根据内存分配量搞的，变量的数量有个阈值（比如256个变量、4096个对象等等），达到这个阈值，才会运行垃圾回收机制。但是遇到一种情况，就比如说一个程序本身自带的变量就超过了这个阈值，那垃圾回收机制，就会频繁运行。性能就下降了。 IE7之后，他们对垃圾回收器的机制做了调整，讲阈值变为动态，如果垃圾收集例程回收的内存分配量低于15%，就将阈值加倍，如果回收了85%，就将阈值回复到默认">
@@ -186,16 +187,6 @@
               <i class="menu-item-icon fa fa-fw fa-home"></i> <br>
             
             首页
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-tags">
-          <a href="/tags/" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br>
-            
-            标签
           </a>
         </li>
       
@@ -368,6 +359,12 @@
 
     <footer class="post-footer">
       
+        <div class="post-tags">
+          
+            <a href="/tags/JavaScript/" rel="tag"># JavaScript</a>
+          
+        </div>
+      
 
       
       
@@ -474,6 +471,15 @@
               </div>
             
 
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                
+                  <span class="site-state-item-count">3</span>
+                  <span class="site-state-item-name">标签</span>
+                
+              </div>
             
 
           </nav>
